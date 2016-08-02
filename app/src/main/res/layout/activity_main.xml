@@ -16,13 +16,14 @@
         android:text="Hello World!" />
 
     <!-- Ponemos otro linearlayout para estructurar botones en una misma linea -->
+    <!--  Comentamos este codigo de estructuras de diseo y pesos OJO Es un ejemplo funcional 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-        <!-- Para que los botones ocupen anchos iguales del total de pantalla se maneja
-        EStructura de Pesos android:layout_width="0dp" y android:layout_weight="1"-->
+         Para que los botones ocupen anchos iguales del total de pantalla se maneja
+        EStructura de Pesos android:layout_width="0dp" y android:layout_weight="1"
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -44,4 +45,5 @@
             android:text="Siguiente"
             android:id="@+id/btn_siguiente"/>
     </LinearLayout>
+    -->
 </LinearLayout>
